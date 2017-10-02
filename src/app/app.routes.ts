@@ -3,10 +3,10 @@ import { HomeComponent } from './home';
 import { AboutComponent } from './about';
 import { NoContentComponent } from './no-content';
 
-import { DataResolver } from './app.resolver';
+import { LandingComponent } from './landing';
 
 export const ROUTES: Routes = [
-  { path: '',      component: HomeComponent },
+  { path: '',      component: LandingComponent },
   { path: 'home',  component: HomeComponent },
   { path: 'about', component: AboutComponent },
   { path: 'detail', loadChildren: './+detail#DetailModule'},
