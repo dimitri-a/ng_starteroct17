@@ -56,6 +56,7 @@ type StoreType = {
     AppComponent,
     AboutComponent,
     HomeComponent,
+    LandingComponent,
     NoContentComponent,
     XLargeDirective
   ],
